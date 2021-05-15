@@ -4,7 +4,9 @@ LAWN_ROOT := packages/apps/Lawnchair
 PRODUCT_SOONG_NAMESPACES += \
     $(LAWN_ROOT)
 
-PRODUCT_PACKAGES += Lawnchair
+PRODUCT_PACKAGES += \
+    Lawnchair \
+    Lawnfeed
 
 PRODUCT_PACKAGE_OVERLAYS += $(LAWN_ROOT)/overlay
 PRODUCT_COPY_FILES += \
